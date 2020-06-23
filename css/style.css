@@ -1,0 +1,283 @@
+html {
+    flex: auto;
+    background: #e6e9e9;
+}
+
+#background{
+    position:absolute;
+    height:auto;
+    width:75%;
+    margin-left: 12.8%;
+    margin-top: 3.5%;
+    background-color:#e0dede;
+    z-index:1;
+}
+#welcome{
+    position:absolute;
+    height:auto;
+    width:15%;
+    margin-left: 39%;
+    margin-top: 17%;
+    z-index:2;
+}
+
+#top{
+    position:absolute;
+    height:auto;
+    width:71.5%;
+    margin-left: 14.6%;
+    z-index:1;
+}
+body{
+    margin:0;
+}
+#background-image{
+    z-index: 3;
+    position: absolute;
+    height: 1000px;
+    /* * */
+    width:75%;
+    margin-left: 12.8%;
+    background-color: #C2C2C2;
+    border-radius: 80px 80px 0px 0px;
+}
+
+#threelogo{
+    position: absolute;
+    bottom: 100px;
+    right: -40px;
+    display: flex;
+    flex-direction: column;
+}
+/* * */
+
+#menu{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 260px;
+}
+#aboutme{
+    height:auto;
+    width:10%;
+
+}
+#work{
+    height:auto;
+    width:10%;
+    z-index:2;
+}
+#photo{
+    height:auto;
+    width:10%;
+    z-index:2;
+} 
+#contact{
+    height:auto;
+    width:10%;
+    z-index:2;
+}
+.black{
+    width:12%;
+    height:30px;
+    background-color: black;
+    border:1px solid black;
+    border-radius:30px 30px 0 0;
+    margin:0 20px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding-top:15px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+.black:hover{
+    height:50px;
+}
+.text{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+
+#introduce{
+    display:flex;
+    height: 90px;
+}
+.header{
+    z-index: 3;
+    margin: 250px 175px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pics{ position:relative;}
+.pics img{ position:absolute;
+  /* 淡出淡入效果2秒 */
+  -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -o-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+ }
+ .pics img:last-child:hover{
+     /* 滑入時第一張透明度設0 */
+      opacity:0;}
+.yuuheader{
+    height:220px;
+}
+.yuuisme{
+    font-size: 18px;
+    font-weight: 560;
+    margin-top: 250px;
+    margin-left: 225px;
+}
+.aboutme{
+    z-index: 4;
+    margin:-30px -50px
+}
+#pinkrec{
+    position: absolute;
+    z-index: 3;
+    width: 580px;
+    height: 420px;
+    background-color:#FDE2F0;
+    margin: 0px 630px;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+#toprec{
+    flex:auto;
+    flex-direction: row;
+}
+.aboutrec{
+    z-index: 3;  
+}
+#aboutmetop{
+    display:flex;
+    height: 110px;
+    z-index: 4;  
+}
+.black02{
+    width:120px;
+    height:55px;
+    background-color: #535353;
+    border:1px solid#535353;
+    border-radius:6px;
+    margin:0 20px;
+    z-index: 4;
+    display: flex;
+    padding-left: 25px;
+    padding-top:13px;
+    flex-direction: column;
+}
+.text2{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+.inpink{
+    margin:125px 100px ;
+}
+.text3{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    width:800px;
+}
+#bluerec{
+    position: absolute;
+    z-index: 3;
+    width: 690px;
+    height: 420px;
+    background-color:#C3E5F3;
+    margin-left:400px;
+    margin-top: 340px;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+.black03{
+    width:120px;
+    height:55px;
+    background-color: #535353;
+    border:1px solid#535353;
+    border-radius:6px;
+    margin:65px 20px;
+    z-index: 4;
+    display: flex;
+    padding-left: 25px;
+    padding-top:13px;
+    flex-direction: column;
+}
+.inblue{
+    margin:20px 105px ;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+.text4{
+    color: #9018B4;
+    font-size: 18px;
+    font-weight: 600;
+    width:100px;
+}
+.text5{
+    color:  #535353;
+    font-size: 18px;
+    font-weight: 600;
+    width:800px;
+}
+.text6{
+    color: #9018B4;
+    font-size: 18px;
+    font-weight: 600;
+    width:180px;
+}
+.text7{
+    color: #9018B4;
+    font-size: 18px;
+    font-weight: 600;
+    width:150px;
+}
+.text8{
+    color:  #444444;
+    font-size: 15px;
+    width:800px;
+    height: 100;
+    margin:0;
+}
+#copyright{
+    display: flex;
+    align-items:center;
+    margin-top:40px;
+    margin-left: 250px;
+}
+#arrow{
+    display: flex;
+    margin-top:135px;
+    margin-left: 320px;
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 50px; /* Increase font size */
+    background-color: #c2c2c2;
+}
+  
+.sologo{
+    position: absolute;
+    z-index: 3;
+    width: 580px;
+    height: 420px;
+    margin: 0px 630px;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+}

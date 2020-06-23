@@ -1,0 +1,139 @@
+html {
+    flex: auto;
+    background: #e6e9e9;
+}
+
+#background{
+    position:absolute;
+    height:auto;
+    width:75%;
+    margin-left: 12.8%;
+    margin-top: 3%;
+    background-color:#e0dede;
+    z-index:1;
+}
+#welcome{
+    position:absolute;
+    height:auto;
+    width:15%;
+    margin-left: 42.5%;
+    margin-top: 18%;
+    z-index:2;
+}
+
+#top{
+    position:absolute;
+    height:auto;
+    width:71.5%;
+    margin-left: 14.6%;
+    z-index:1;
+}
+body{
+    margin:0;
+}
+#background-image{
+    z-index: 3;
+    position: absolute;
+    height: 1600px;
+    /* * */
+    width:75%;
+    margin-left: 12.8%;
+    background-color: #C2C2C2;
+    border-radius: 80px 80px 0px 0px;
+}
+#threelogo{
+    position: absolute;
+    bottom: 120px;
+    right: -40px;
+    display: flex;
+    flex-direction: column;
+}
+#menu{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 260px;
+}
+#aboutme{
+    height:auto;
+    width:10%;
+
+}
+#work{
+    height:auto;
+    width:10%;
+    z-index:2;
+}
+#photo{
+    height:auto;
+    width:10%;
+    z-index:2;
+} 
+#contact{
+    height:auto;
+    width:10%;
+    z-index:2;
+}
+.black{
+    width:12%;
+    height:30px;
+    background-color: black;
+    border:1px solid black;
+    border-radius:30px 30px 0 0;
+    margin:0 20px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding-top:15px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+.black:hover{
+    height:50px;
+}
+.text{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+
+#introduce{
+    display:flex;
+    height: 90px;
+}
+.text8{
+    color:  #444444;
+    font-size: 15px;
+    margin-top:25px;
+}
+
+#copyright{
+    display: flex;
+    height: 1600px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myBtn{
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 50px; /* Increase font size */
+    background-color: #c2c2c2;
+  }
+
+#works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
